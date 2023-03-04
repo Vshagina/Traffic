@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_color"
+    android:gravity="center"
+    android:id="@+id/txt_counter"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/red_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_widht"
+        android:backgroundTint="@color/red_color"
+        android:gravity="center"
+        android:onClick="onClickRedButton"
+        android:text="@string/text_red"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_wight1" />
+
+    <Button
+        android:id="@+id/yellow_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow_color"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_widht"
+        android:onClick="onClickYellowButton"
+        android:text="@string/text_yellow"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_wight1" />
+
+    <Button
+        android:id="@+id/green_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/text_green"
+        android:layout_margin="@dimen/text_widht"
+        android:backgroundTint="@color/green_color"
+        android:textSize="@dimen/text_wight1"
+        android:gravity="center"
+        android:onClick="onClickGreenButton" />
+</LinearLayout>
